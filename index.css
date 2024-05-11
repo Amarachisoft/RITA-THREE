@@ -1,0 +1,259 @@
+ . {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+html{
+  background: rgb(172, 43, 43);
+  height: 60%;
+  width: 80%;
+  justify-content: center;
+}
+
+.main-card{
+  margin: 72px;;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+  width: 100%;
+  
+
+}
+.main-card button{
+  padding: 10px;
+  background: whitesmoke;
+  color: black;
+  border-color: black;
+}
+.line-1{
+  width: 90px;
+}
+.one{
+  color: white;
+  padding: 40px;
+  background: rgb(4, 4, 27);
+  
+}
+.first-card{
+  gap: 90px;
+  background: rgb(4, 4, 27);
+  display: flex;
+
+}
+.first-card h1{
+  font-size: 3xl;
+  font-weight: 800;
+}
+.first-card p{
+  opacity: 0.6;
+  padding-bottom: 40px;
+}
+.first-card button{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background: rgb(4, 4, 27);
+  color: white;
+  border-color: white;
+}
+.family{
+  width: 80%;
+  height: 60%;
+}
+.blog{
+  display: flex;
+  margin-right: 3px;
+  gap: 20px;
+  list-style: none;
+  cursor: pointer;
+
+}
+.initial{
+  display: flex;
+  background: rgb(250, 247, 247);position: relative;
+    width: 96.5%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 12px;
+
+  
+}
+.initial ul{
+  opacity: 0.6;
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+.initial button{
+  border-color: rgb(15, 7, 7);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.line-2{
+  width: 90px;
+  padding-top: 90px;
+}
+.second-card{
+  padding: 40px;
+  background: white;
+}
+.card2{
+  display: flex;
+  gap: 40px;
+}
+.third-card{
+  display: flex;
+    background: rgb(4, 4, 27);
+    padding: 40px;
+    color: white;
+    margin-top: 90px;
+    gap: 90px;
+    padding-bottom: 60px;
+    position: relative;
+      
+      top: 0;
+      right: 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+}
+.third-card button{
+  padding: 20px;
+  background: rgb(4, 4, 27);
+  color: white;
+  border-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px
+
+}
+.last-card{
+  padding: 40px;
+  background: white;
+  
+}
+.last-last{
+  display: flex;
+  gap: 60px;
+}
+.insure{
+  display: flex;
+  position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 12px;
+    transition: 50s ease;
+  
+
+}
+.icons{
+  gap: 90px;
+  justify-content: space-between;
+}
+
+/*Mobile Media queries*/
+@media (max-width:767px) {
+
+  .main-card{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    
+  }
+
+  .blog{
+    position: relative;
+      width: 100%;
+      top: 0;
+      right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+      padding: 20px 12px;
+      transition: 50s ease;
+      flex-direction: column;
+
+  }
+
+
+  .first-card{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 80%;
+
+}
+.family{
+  width: 80%;
+}
+
+.card2{
+  display: block;
+  flex-direction: column-reverse;
+  justify-content: center;
+
+}
+.third-card{
+  display: block;
+  flex-direction: column-reverse;
+}
+.blog{
+
+
+}
+.last-card{
+  position: relative;
+}
+.card1{
+  justify-content: center;
+}
+.insure{
+  display: block;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+}
+.last-last{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.initial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  width: 90%;
+
+  
+  
+}
+  
+}
+
+/*Media queries(Tablet Screen)*/
+@media (min-width:768px) and (max-width:1180px) {
+  
+}
