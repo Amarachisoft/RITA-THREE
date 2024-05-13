@@ -4,19 +4,22 @@
   margin: 0;
   box-sizing: border-box;
  }
+
 html{
   background: rgb(172, 43, 43);
   height: 60%;
-  width: 80%;
+  width: 100%;
   justify-content: center;
 }
 
 .main-card{
-  margin: 72px;;
   justify-content: center;
-  margin-top: 40px;
-  gap: 40px;
-  width: 100%;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  margin: 60px auto;
+
+  
   
 
 }
@@ -73,16 +76,9 @@ html{
 .initial{
   display: flex;
   background: rgb(250, 247, 247);position: relative;
-    width: 96.5%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 12px;
-
-  
+    justify-content: space-between; 
+    padding: 40px;
 }
 .initial ul{
   opacity: 0.6;
@@ -100,10 +96,12 @@ html{
 .line-2{
   width: 90px;
   padding-top: 90px;
+  text-align: center;
 }
 .second-card{
   padding: 40px;
   background: white;
+  text-align: center;
 }
 .card2{
   display: flex;
@@ -137,6 +135,10 @@ html{
   padding-top: 16px
 
 }
+
+.icons{
+  
+}
 .last-card{
   padding: 40px;
   background: white;
@@ -150,15 +152,8 @@ html{
   display: flex;
   position: relative;
     width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 20px 12px;
-    transition: 50s ease;
   
 
 }
@@ -245,7 +240,6 @@ html{
   justify-content: center;
   display: block;
   text-align: center;
-  width: 90%;
 
   
   
